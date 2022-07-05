@@ -10,13 +10,108 @@ I mean, I have an idea but I would like to read about it. */
   --beige: #fef9ef;
 }
 
+/* GLOBAL STYLES */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Nanum Brush Script", sans-serif;
-}
-
-button {
   text-transform: uppercase;
 }
+
+body {
+  background-color: var(--beige);
+}
+
+main {
+  padding: 3rem 2rem;
+  max-width: 480px;
+  margin: auto;
+}
+
+h1 {
+  color: var(--blue);
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* END GLOBAL STYLES */
+
+/* HEADER */
+
+header p {
+  color: var(--green);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* END HEADER */
+
+/* CLASSES */
+
+.counter {
+  background-color: var(--light-red);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.counter-value {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.counter-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 -1rem;
+}
+
+.memory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 -1rem;
+}
+
+/* END CLASSES */
+
+/* BUTTONS */
+
+button {
+  color: var(--blue);
+  margin: 0.5vw;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  border: 1px solid var(--blue);
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-counter {
+  background: var(--light-red);
+}
+
+.btn-memory {
+  background: var(--beige);
+}
+
+section div button:hover {
+  color: var(--beige);
+  border-radius: 1.5rem;
+  border-color: var(--beige);
+  transition: all 0.6s ease 0s;
+}
+
+section button:hover {
+  color: var(--light-red);
+  border-radius: 1.5rem;
+  border-color: var(--light-red);
+  transition: all 0.6s ease 0s;
+}
+
+/* BUTTONS */
