@@ -1,8 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
 
+/* I don't know how root works yet, but it is super handy. 
+I mean, I have an idea but I would like to read about it. */
+:root {
+  --light-red: #fe6d73;
+  --yellow: #ffcb77;
+  --blue: #227c9d;
+  --green: #17c3b2;
+  --beige: #fef9ef;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Nanum Brush Script", sans-serif;
+}
+
+button {
+  text-transform: uppercase;
 }
