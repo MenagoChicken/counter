@@ -7,7 +7,7 @@ document.querySelector(".counter-value").innerText = counter;
 //for each element of the table
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-    //ned to read about eventListener
+    //need to read about eventListener
     const type = button.getAttribute("id");
     console.log(type);
 
@@ -34,7 +34,6 @@ buttons.forEach((button) => {
     }
     //send value to HTML
     document.querySelector(".counter-value").innerText = counter;
-
     console.log(document.querySelector(".counter-value").innerText);
   });
 });
